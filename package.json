@@ -1,0 +1,32 @@
+{
+  "name": "banding",
+  "version": "0.1.0",
+  "description": "Banding Theme",
+  "private": true,
+  "scripts": {
+    "build": "npx rimraf public && rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --single",
+    "start:dev": "sirv public --single --dev"
+  },
+  "author": "Darren Mothersele <me@daz.is>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.7.1",
+    "cssnano": "^4.1.10",
+    "rimraf": "^3.0.0",
+    "rollup": "^1.27.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-svelte": "^5.1.1",
+    "rollup-plugin-terser": "^5.1.2",
+    "sirv-cli": "^0.4.5",
+    "svelte": "^3.14.1",
+    "svelte-preprocess-postcss": "^1.1.1",
+    "tailwindcss": "^1.1.3"
+  }
+}
